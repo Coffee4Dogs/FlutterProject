@@ -1,4 +1,4 @@
-# Delta Labs 
-group
+# Flutter Project
+Delta Labs Group
 
 ![App Screenshot](https://github.com/Coffee4Dogs/FlutterProject/blob/Image-%26-Assets/Concept_Image.png)

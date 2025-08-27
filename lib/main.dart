@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-// import 'HomeScreen.dart';
+import 'screens/Get Started/GetStarted_Background.dart';
+import 'screens/Get Started/GetStarted_BottomLeftButton.dart';
 
-
-void main(){
+void main() {
   runApp(MyApp());
 }
-
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -17,30 +16,18 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
+
+    // Recordatorio: Solo hay un MaterialApp y un Scaffold. 
     return MaterialApp(
       home: Scaffold(
-
-        // usa el mismo color 
-        backgroundColor: Color.fromARGB(255, 16, 21, 17),
-        
-
-        body: Center(
-        child: Row(
+        body: 
+          Stack(
+          // Llamar los widgets y superponerlos (no usando row o column):
           children: [
-            Expanded(
-              child: Image.asset(
-                "assets/dark_bg.jpg",
-                fit: BoxFit.cover, // Ajusta como se llena el espacio de la imagen
-              ),
-            ),
+            GetStarted_Background(),
+            GetStarted_BottomLeftButton(),
           ],
         ),
-      ),
-
-
-
-
-
       ),
     );
   }

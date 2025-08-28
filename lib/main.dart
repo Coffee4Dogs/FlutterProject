@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/Get Started/GetStarted_Background.dart';
-import 'screens/Get Started/GetStarted_BottomLeftButton.dart';
+import 'screens/Get Started/GetStarted_GetStartedButton.dart';
+import 'screens/Get Started/GetStarted_LegalButton.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,6 +27,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             GetStarted_Background(),
             GetStarted_BottomLeftButton(),
+            LegalButton(),
           ],
         ),
       ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Screens/GetStarted.dart';
 
+
 void main(){
   runApp(const MyApp());
 }
@@ -21,7 +22,6 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: 
       GetStarted(),
-      
     );
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'Widgets/CustomBackground_Widget.dart';
 class CreateAccount extends StatefulWidget {
   const CreateAccount({super.key});
 
@@ -14,6 +14,15 @@ class _CreateAccountState extends State<CreateAccount> {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 87, 148, 126),
+        body: Stack(
+          children: [
+            
+            // Background:
+            CustomBackground_Widget("assets/bg5.jpg"),
+
+            
+          ],
+        ),
       ),
     );
   }

@@ -21,8 +21,9 @@ class GetStarted extends StatefulWidget {
 class _GetStartedState extends State<GetStarted> {
 
   void LoadLoginPage_function(){
-    print("The function was executed correctly!");
+    print("Loading Login!");
     Navigator.of(context).push(MaterialPageRoute(builder: (context) => Login()));
+  
   }
 
    void LoadInfoPage_function(){
@@ -40,9 +41,9 @@ class _GetStartedState extends State<GetStarted> {
           // LegalButton_Widget(),
           // ContinueButton_Widget(),
             // // 132, 46
-          CustomButton_Widget("Continuar", 0.76, 0.845, const Color.fromARGB(255, 190, 11, 29), Colors.white, 132, 46, 200, LoadLoginPage_function),
+          CustomButton_Widget("Continuar", 0.76, 0.845, const Color.fromARGB(255, 202, 202, 202), const Color.fromARGB(255, 11, 11, 11), 132, 48, 36, LoadLoginPage_function),
           
-          CustomButton_Widget("INFO", 0, 0.945, const Color.fromARGB(0, 236, 144, 91), Colors.white, 132, 46, 200, LoadInfoPage_function),
+          CustomButton_Widget("info", 0, 0.965, const Color.fromARGB(255, 31, 31, 31), const Color.fromARGB(255, 235, 235, 235), 80, 36, 10, LoadInfoPage_function),
           
         ],
       ),

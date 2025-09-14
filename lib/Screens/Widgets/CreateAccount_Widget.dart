@@ -183,7 +183,7 @@ class _CreateAccount_WidgetState extends State<CreateAccount_Widget> {
 
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.blue,
+                          backgroundColor: const Color.fromARGB(255, 238, 117, 65),
                           minimumSize: const Size(double.infinity, 50),
                         ),
                         onPressed: _acceptTerms

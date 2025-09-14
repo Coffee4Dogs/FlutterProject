@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:t1/Screens/Widgets/CustomButton_Widget.dart';
+// import 'package:t1/Screens/TerminosCondiciones.dart';
 import 'Widgets/CustomBackground_Widget.dart';
-// import 'Widgets/CustomButton_Widget.dart';
+import 'Widgets/CustomButton_Widget.dart';
+import 'Login.dart';
+import 'TerminosCondiciones.dart';
 
 class CreateAccount extends StatefulWidget {
   const CreateAccount({super.key});
@@ -15,15 +17,22 @@ class _CreateAccountState extends State<CreateAccount> {
   bool _obscurePassword2 = true;
   bool _acceptTerms = false;
 
-  // void TermsConditions_Button(){
-  //   print("Terminos y Condiciones presionado");
-  // }
+  void TermsConditions_Button(){
+    print("Terminos y Condiciones presionado");
+    Navigator.of(context).push(MaterialPageRoute(builder: (context) => TerminosCondiciones()));
+  
+  }
+
+  void LoadLoginPage_function(){
+      print("Loading Login!");
+      Navigator.of(context).push(MaterialPageRoute(builder: (context) => Login()));
+    }
 
   @override
   Widget build(BuildContext context) {
     return Stack(
 
-
+      
 
         
       children: [
@@ -31,8 +40,12 @@ class _CreateAccountState extends State<CreateAccount> {
         CustomBackground_Widget("assets/bg3.jpg"),
 
         // Boton Terminos y Condiciones:
-        // CustomButton_Widget("hola", 0, 0.9, Colors.blue, Colors.white, 100, 100, 16, TermsConditions_Button),
+        // CustomButton_Widget("Terminos y Condiciones", 0.74, 0.9, const Color.fromARGB(255, 238, 88, 65), Colors.white, 140, 56, 16, TermsConditions_Button),
       
+        // Back (Login):
+        CustomButton_Widget("Back", -0.74, 0.9, const Color.fromARGB(255, 22, 22, 22), Colors.white, 140, 46, 16, LoadLoginPage_function),
+      
+        
 
         Center(
         child: Align(

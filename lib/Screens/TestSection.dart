@@ -98,7 +98,7 @@ class _TestSectionState extends State<TestSection> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Correctas: $correctas",
-                      style: const TextStyle(fontSize: 24, color: Color.fromARGB(255, 102, 210, 20))),
+                      style: const TextStyle(fontSize: 24, color: Color.fromARGB(255, 95, 189, 23))),
                   Text("Incorrectas: $incorrectas",
                       style: const TextStyle(fontSize: 24, color: Color.fromARGB(255, 244, 54, 54))),
                   const SizedBox(height: 20),
@@ -118,7 +118,9 @@ class _TestSectionState extends State<TestSection> {
             )
           else
             Padding(
-              padding: const EdgeInsets.all(20),
+              
+              padding:
+              EdgeInsetsGeometry.only(left: 40, right: 40, top: 100, bottom: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [

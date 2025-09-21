@@ -2,6 +2,7 @@
 ## 📱 Dulce Hogar 
 - 📚 Test Educativo para Niños de Kínder. 👶
 
+![Texto alternativo](https://raw.githubusercontent.com/Coffee4Dogs/FlutterProject/refs/heads/Concept/assets/concept.png)
 
 ## 📌 ¿Qué es?
 Este proyecto es una **aplicación educativa desarrollada en Flutter**.  
@@ -44,4 +45,4 @@ El proyecto se encuentra en la rama principal:
 
 ## Licencia
 [Apache License - Versión 2.0](https://github.com/Coffee4Dogs/FlutterProject?tab=Apache-2.0-1-ov-file)
-![Texto alternativo](https://raw.githubusercontent.com/Coffee4Dogs/FlutterProject/refs/heads/Concept/assets/concept.png)
+

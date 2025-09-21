@@ -35,7 +35,8 @@ De esta manera, la aplicación no solo enseña conceptos básicos, sino que tamb
 
 ## 📂 ¿Dónde está?
 El proyecto se encuentra en la rama principal:  
-👉 [FlutterProject Branch](https://github.com/Coffee4Dogs/FlutterProject)
+- 👉 [FlutterProject Branch](https://github.com/Coffee4Dogs/FlutterProject)
+- 📱 [Descargar .apk](https://jacklagosg.wixstudio.com/dulcehogar)
 
 ## 🛠️ Instalación
 

@@ -63,7 +63,7 @@ class _CreateAccountState extends State<CreateAccount> {
       User user = User(username: username, email: email, password: pass1);
 
       final response = await _dioAdapter.postRequest(
-        'https://subscriptions-be.vercel.app/api/users',
+        'https://####-be.vercel.app/api/users',
         user.toMap(),
       );
 

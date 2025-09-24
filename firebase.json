@@ -1,0 +1,22 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "dulcehogar-app",
+                    "appId": "1:385707445759:android:94d2a6b27790815333abca",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "dulcehogar-app",
+                    "configurations": {
+                        "android": "1:385707445759:android:94d2a6b27790815333abca",
+                        "ios": "1:385707445759:ios:ab730f19dda00a1833abca"
+                    }
+                }
+            }
+        }
+    }
+}

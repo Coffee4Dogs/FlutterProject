@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385707445759",
+    "project_id": "dulcehogar-app",
+    "storage_bucket": "dulcehogar-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385707445759:android:94d2a6b27790815333abca",
+        "android_client_info": {
+          "package_name": "com.t1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxQhdJLuFv6hIUnTheBh2AEUXEjmArT1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
